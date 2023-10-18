@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
-    background: ;
+    background: linear-gradient(#64ddff,#9d9d9d);
+    background-repeat: no-repeat;
 }
 
 .imagem {
@@ -14,13 +19,33 @@ body {
 .imagem img {
     width: 170px;
     border-radius: 200px;
-    margin-top: 30px;
+    margin-top: 150px;
 }
+
 .nome {
-    display: flex;
     margin-top: 10px;
+    display: flex;
     justify-content: center;
     font-size: 32px;
-    color: aqua;
+    font-weight: 600;
+    color: #308ff4;
     font-family: Arial, Helvetica, sans-serif;
+}
+.redes-sociais {
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.redes-sociais a {
+    text-decoration: none;
+}
+.icone, .email {
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+    margin: 3px;
+    overflow: hidden;
 }
