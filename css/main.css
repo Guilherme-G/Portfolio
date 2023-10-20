@@ -19,7 +19,7 @@ body {
 .imagem img {
     width: 170px;
     border-radius: 200px;
-    margin-top: 150px;
+    margin-top: 30px;
 }
 
 .nome {
@@ -40,7 +40,7 @@ align-items: center;
 .redes-sociais a {
     text-decoration: none;
 }
-.icone, .email {
+.icone, #email {
     height: 35px;
     width: 35px;
     border-radius: 30px;
@@ -49,13 +49,28 @@ align-items: center;
     margin: 3px;
     overflow: hidden;
 }
-.icone i, .email i {
-    display: flex;
+.icone i, #email i {
+    display: inline-block;
     width: 35px;
     height: 35px;
     line-height: 35px;
     text-align: center;
     font-size: 22px;
+    border-radius: 30px;
     background: #bbb9b4;
     color: #1a4994;
+}
+.icone span a {
+margin: auto;
+list-style: none;
+font-family: 'Times New Roman', Times, serif;
+float: right;
+margin-right:25px;
+color: blue;
+line-height: 35px;
+font-size: 15px;
+}
+.icone:hover {
+    width: 125px;
+    background: #ffffff;
 }
