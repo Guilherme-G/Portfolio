@@ -77,6 +77,7 @@ font-size: 15px;
 .icone:hover {
     width: 125px;
     background: #ff0000;
+    font-weight: 500;
 }
 .texto {
     display: flex;
